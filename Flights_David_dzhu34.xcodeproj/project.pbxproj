@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		DA27056F27A23EDB008339B8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27056E27A23EDB008339B8 /* main.swift */; };
+		DA27057627A23F18008339B8 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27057527A23F18008339B8 /* Flight.swift */; };
+		DA27057827A243FC008339B8 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27057727A243FC008339B8 /* Reservation.swift */; };
+		DA2705B927A35677008339B8 /* CanBeDisplayed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2705B827A35677008339B8 /* CanBeDisplayed.swift */; };
+		DA2705BB27A35C07008339B8 /* Traveller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2705BA27A35C07008339B8 /* Traveller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		DA27056B27A23EDB008339B8 /* Flights_David_dzhu34 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Flights_David_dzhu34; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA27056E27A23EDB008339B8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DA27057527A23F18008339B8 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		DA27057727A243FC008339B8 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		DA2705B827A35677008339B8 /* CanBeDisplayed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanBeDisplayed.swift; sourceTree = "<group>"; };
+		DA2705BA27A35C07008339B8 /* Traveller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traveller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				DA27056E27A23EDB008339B8 /* main.swift */,
+				DA27057527A23F18008339B8 /* Flight.swift */,
+				DA27057727A243FC008339B8 /* Reservation.swift */,
+				DA2705B827A35677008339B8 /* CanBeDisplayed.swift */,
+				DA2705BA27A35C07008339B8 /* Traveller.swift */,
 			);
 			path = Flights_David_dzhu34;
 			sourceTree = "<group>";
@@ -121,6 +133,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA27056F27A23EDB008339B8 /* main.swift in Sources */,
+				DA2705B927A35677008339B8 /* CanBeDisplayed.swift in Sources */,
+				DA27057627A23F18008339B8 /* Flight.swift in Sources */,
+				DA27057827A243FC008339B8 /* Reservation.swift in Sources */,
+				DA2705BB27A35C07008339B8 /* Traveller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
